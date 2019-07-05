@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Blank
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-list>
+    <ion-item>
+      <ion-label floating> Nome</ion-label>
+      <ion-input type="text" [(ngModel)]="nome"></ion-input>
+    </ion-item>
+    <ion-item>
+      <ion-button (click)="mostraAlerta()" >Click aqui</ion-button>
+      <ion-button routerLink="/triangulo" color="danger">
+        Triangulo
+      </ion-button>
+    </ion-item>
+  </ion-list>
+</ion-content>
+

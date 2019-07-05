@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>triangulo</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding>
+  <ion-item>
+    <ion-label floating> Base</ion-label>
+    <ion-input type="text" [(ngModel)]="base"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-label floating> Altura</ion-label>
+    <ion-input type="text" [(ngModel)]="altura"></ion-input>
+  </ion-item>
+  <ion-item>
+    <ion-button (click)="calcula()">Click aqui</ion-button>
+  </ion-item>
+  <ion-item>
+    <ion-label floating> Resultado</ion-label>
+    <ion-input type="text" [(ngModel)]="resultado"></ion-input>
+  </ion-item>
+
+</ion-content>
+
